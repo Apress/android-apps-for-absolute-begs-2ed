@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <Button
+        android:id="@+id/button1"
+        android:nextFocusUp="@+id/button4"
+        android:nextFocusDown="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/button_caption" />
+    <TextView
+        android:id="@+id/textmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/text_message"
+        tools:context=".MainActivity" />
+    <Button
+        android:id="@+id/button2"
+        android:nextFocusUp="@+id/button1"
+        android:nextFocusDown="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textmessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/context_button_caption" />
+    <Button
+        android:id="@+id/button3"
+        android:nextFocusUp="@+id/button2"
+        android:nextFocusDown="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/third_button_caption" />
+    <Button
+        android:id="@+id/button4"
+        android:nextFocusUp="@+id/button3"
+        android:nextFocusDown="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"        
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"        
+        android:text="@string/fourth_button_caption" />
+</RelativeLayout>

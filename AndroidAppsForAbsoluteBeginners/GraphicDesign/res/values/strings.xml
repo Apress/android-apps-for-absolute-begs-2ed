@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GraphicDesign</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="content_desc">Frame Animation Example</string>
+    <string name="content_desc2">Image Transition Example</string>
+    <string name="animated_text">TWEEN ANIMATION!</string>
+</resources>

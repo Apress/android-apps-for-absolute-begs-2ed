@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/buttonone"
+        android:title="@string/showimage1"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+    <item android:id="@+id/buttontwo"
+        android:title="@string/showimage2"
+        android:orderInCategory="200"
+        android:showAsAction="never" />
+    <item android:id="@+id/buttonthree"
+        android:title="@string/showwhite"
+        android:orderInCategory="300"
+        android:showAsAction="never" />
+    <item android:id="@+id/buttonfour"
+        android:title="@string/showblack"
+        android:orderInCategory="400"
+        android:showAsAction="never" />
+    <item android:id="@+id/buttonfive"
+        android:title="@string/showalert"
+        android:orderInCategory="500"
+        android:showAsAction="never" />
+    
+</menu>

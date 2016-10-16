@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EventHandling</string>
+    <string name="button_caption">CLICK TO GENERATE EVENT</string>
+    <string name="context_button_caption">LONG-CLICK FOR CONTEXT MENU</string>
+    <string name="third_button_caption">THIRD BUTTON</string>
+    <string name="fourth_button_caption">FOURTH BUTTON</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="text_message">NO EVENT RECEIVED YET</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">UI_Designs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="showimage1">IMAGE ONE</string>
+    <string name="showimage2">IMAGE TWO</string>
+    <string name="showwhite">USE WHITE</string>
+    <string name="showblack">USE BLACK</string>
+    <string name="showalert">SHOW ALERT</string>
+    <color name="background">#FFFFFF</color>
+    <color name="background2">#000000</color>
+
+</resources>

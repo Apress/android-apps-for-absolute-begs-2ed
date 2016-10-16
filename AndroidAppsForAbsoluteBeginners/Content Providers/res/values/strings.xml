@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ContentProviders</string>
+    <string name="display_data">Click Buttons Below to Query, Add, Modify or Delete</string>
+    <string name="button_title">Click to Query Contacts Database</string>    
+    <string name="append_data">Click to Add to Contacts Database</string>
+    <string name="modify_data">Click to Modify Contacts Database</string>
+    <string name="delete_data">Click to Delete Contact in Database</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

@@ -1,0 +1,50 @@
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" >
+     <TextView  
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:text="@string/alt_activity_text"
+         android:textSize="17dp"
+         tools:context=".AlternateActivity" />
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textView1"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="30dp"
+         android:text="@string/alt_activity_button" />
+     <DigitalClock
+         android:id="@+id/digitalClock1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/button1"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="30dp"
+         android:textColor="#7ac"
+         android:textSize="40dp"
+         android:typeface="monospace" />
+     <EditText
+         android:id="@+id/editText1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:ems="10"
+         android:hint="@string/edit_text_hint"
+         android:inputType="numberDecimal" >
+         <requestFocus />
+     </EditText>
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/editText1"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="30dp"
+         android:text="@string/timer_button_label" />
+ </RelativeLayout>

@@ -1,0 +1,15 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+  android:oneshot="false">
+  
+  <item android:drawable="@drawable/logoanim0" android:duration="200" />
+  <item android:drawable="@drawable/logoanim1" android:duration="200" />
+  <item android:drawable="@drawable/logoanim2" android:duration="200" />
+  <item android:drawable="@drawable/logoanim3" android:duration="200" />
+  <item android:drawable="@drawable/logoanim4" android:duration="200" />
+  <item android:drawable="@drawable/logoanim5" android:duration="200" />
+  <item android:drawable="@drawable/logoanim6" android:duration="200" />
+  <item android:drawable="@drawable/logoanim7" android:duration="200" />
+  <item android:drawable="@drawable/logoanim8" android:duration="200" />
+  <item android:drawable="@drawable/logoanim9" android:duration="200" />
+    
+</animation-list>
